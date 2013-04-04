@@ -21,8 +21,8 @@ Example
       $agent = new ConductricsAgent("php-demo-agent");
 
       // Make a decision
-      $choice = $agent.decide(session_id(), "a", "b");
+      $choice = $agent->decide(session_id(), "a", "b");
 
       // Send a reward
-      $agent.reward(session_id());
+      $agent->reward(session_id());
     ?>
